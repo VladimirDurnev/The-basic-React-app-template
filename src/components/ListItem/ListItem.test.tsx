@@ -1,7 +1,7 @@
-import {render, screen} from "@testing-library/react";
-
-import "@testing-library/jest-dom";
 import {ListItem} from "./ListItem";
+
+import {render, screen} from "@testing-library/react";
+import "@testing-library/jest-dom";
 
 const obj = {
     id: 1,

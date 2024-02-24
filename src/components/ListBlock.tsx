@@ -1,8 +1,10 @@
+import {ListItem} from "./ListItem/ListItem";
+
+import {IDataItem} from "../type/DataItem";
+
 import {useEffect, useState} from "react";
 
 import axios from "axios";
-import {ListItem} from "./ListItem/ListItem";
-import {IDataItem} from "../type/DataItem";
 export const ListBlock = () => {
     const [data, setData] = useState<IDataItem[]>([]);
     useEffect(() => {

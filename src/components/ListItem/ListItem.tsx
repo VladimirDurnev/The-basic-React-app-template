@@ -1,6 +1,8 @@
-import React, {useState} from "react";
-import {IDataItem} from "../../type/DataItem";
 import style from "./ListItem.module.css";
+
+import {IDataItem} from "../../type/DataItem";
+
+import React, {useState} from "react";
 
 export const ListItem = (props: IDataItem) => {
     const {id, title, body}: IDataItem = props;
