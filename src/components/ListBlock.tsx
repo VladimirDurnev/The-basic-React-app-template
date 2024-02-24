@@ -21,9 +21,7 @@ export const ListBlock = () => {
     useEffect(() => {
         data && console.log(data);
     }, [data]);
-    const onClick = (id: number) => {
-        alert(id);
-    };
+
     return (
         <div>
             {data.map((item) => (
@@ -32,7 +30,6 @@ export const ListBlock = () => {
                     id={item.id}
                     title={item.title}
                     body={item.body}
-                    onClick={onClick}
                 ></ListItem>
             ))}
         </div>
