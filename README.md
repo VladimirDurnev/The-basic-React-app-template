@@ -10,7 +10,7 @@
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky)
-- [Scss]([https://typicode.github.io/husky](https://sass-lang.com/))
+- [Scss](https://sass-lang.com)
   
 ## Recommended VS Code extensions
 
