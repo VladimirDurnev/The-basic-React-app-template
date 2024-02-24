@@ -6,7 +6,7 @@ export const ListItem = (props: any) => {
     const {id, title, body}: IDataItem = props;
     const {onClick}: {onClick: (id: number) => void} = props;
     const [red, setRed] = useState(false);
-    var test = 0
+
     return (
         <div>
             <p>id: {id}</p>
