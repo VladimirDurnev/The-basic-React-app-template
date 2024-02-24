@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + (jest, RTL) + (eslint, prettier, husky)
+# The basic React app template
 
 ## What's inside?
 
@@ -10,3 +10,26 @@
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky)
+
+## Recommended VS Code extensions
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+### Lint commands
+
+- Run eslint
+  ```bash
+  npm run lint
+  ```
+- Run eslint with fixing
+  ```bash
+  npm run lint:fix
+  ```
+
+### Test commands
+
+- Run tests with coverage (will open the coverage if all tests succeed)
+  ```bash
+  npm run test
+  ```
