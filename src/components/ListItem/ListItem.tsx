@@ -9,7 +9,7 @@ export const ListItem = (props: IDataItem) => {
 
     return (
         <div>
-            <p>id: { id }</p>
+            <p>id: {id}</p>
             <p
                 onClick={() => setRed(!red)}
                 className={red ? style.active : undefined}
